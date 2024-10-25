@@ -134,3 +134,6 @@ dmypy.json
 tests/data
 data
 sql_db
+# pixi environments
+.pixi
+*.egg-info

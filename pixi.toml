@@ -1,0 +1,45 @@
+[project]
+authors = ["Sibbe Bakker <sibbe.bakker@wur.nl>"]
+channels = ["anaconda", "bioconda", "conda-forge", "main", "r", "msys2", "rdkit"]
+description = "Add a short description here"
+name = "enpkg_full"
+platforms = ["linux-64"]
+version = "0.1.0"
+channel-priority = "disabled"
+
+[tasks]
+
+[dependencies]
+ipykernel = "*"
+ipython = "*"
+matchms = "==0.20.0"
+matplotlib = "*"
+networkx = "*"
+numpy = "==1.24.3"
+pandas = "==2.0.2"
+pip = "==23.1.2"
+plotly = "==5.14.1"
+python = "==3.9"
+pyyaml = "==6.0"
+rdflib = "*"
+rdkit = "*"
+requests = "*"
+scikit-bio = "*"
+scikit-learn = "==1.2.2"
+scipy = "==1.10.1"
+seaborn = "==0.12.2"
+spec2vec = "*"
+sqlite = "*"
+tqdm = "==4.65.0"
+
+[pypi-dependencies]
+bokeh = "==2.4.3"
+chembl-webresource-client = "*"
+compress-json = "*"
+datatable = "==1.0.0"
+downloaders = "*"
+gitpython = "==3.1.31"
+memo-ms = "*"
+opentree = "==1.0.1"
+pyyaml = "*"
+userinput = "*"
